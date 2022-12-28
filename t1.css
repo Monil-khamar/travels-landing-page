@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(WhatsApp\ Image\ 2022-12-27\ at\ 12.50.46\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.logo{
+    color: #06fa02;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+span{
+    color: white;
+}
+.btn{
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #13fa02;
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.nav{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    color: #1bfa02;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.text p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.btnone{
+    margin: 0px 10px;
+    border: 2px solid #1b02fa;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: #000;
+    border-radius: 30px;
+    background-color: #02fa2b;
+    text-decoration: none;
+}
+.btnone:hover{
+    border: 2px solid #02eefa;
+    color: #000;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btntwo{
+    margin: 0px 10px;
+    border: 2px solid #2b02fa;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: #02b8fa;
+    border-radius: 30px;
+    background-color: white;
+    text-decoration: none;
+}
+.btntwo:hover{
+    border: 2px solid #021bfa;
+    color: #000;
+    background-color: #0efa02;
+    transition: 0.5s;
+    cursor: pointer;
+}
